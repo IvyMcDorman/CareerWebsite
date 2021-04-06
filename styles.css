@@ -1,0 +1,19 @@
+html {
+  background: url(https://cutewallpaper.org/21/water-background-picture/90-Simple-Backgrounds-Edit-and-Download-Visual-Learning-.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.titles {
+  color: #001f54;
+}
+
+.center {
+  text-align: center;
+}
+.movingStuff {
+  margin-left: 150px;
+  padding: 75px;
+}
