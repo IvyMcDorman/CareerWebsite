@@ -5,44 +5,61 @@
     <meta name="viewport" content="width=device-width" />
     <title>ivym.net</title>
     <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
   </head>
   <body>
+    <!-- navbar stuff -->
+    <nav class="navbar">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo" id="penguin">🐧</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a id="buttonFont" href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <!--Title And Stuff -->
     <div class="titles center">
-      <h2>The perks and benefits of being an:</h2>
-      <h1><u>Aquarium Animal Curator</u></h1>
+      <h5>The perks and benefits of being an:</h5>
+      <h4><u>Aquarium Animal Curator</u></h4>
     </div>
 
     <!-- Job responsibilities -->
     <div class="Responsibilities">
-      <h2><u>Job Responsibilities</u></h2>
-      <p>Aquarim animal curators have several responsibilities, including:</p>
-      <ul>
-        <li>deciding what fish to put in the Aquarium</li>
-        <li>regulating the nutrition and health of the fish</li>
-        <li>determining the required water conditions</li>
-        <li>determining the types of glass tanks needed</li>
-      </ul>
       <img
         class="picture"
         src="https://www.atlantaparent.com/wp-content/uploads/2017/10/GAQ-Guests-0008.jpg"
         alt="An image of a large aquarium tank filled with several varieties of fish species and sharks"
         width="600"
       />
-      <!--Job Description-->
     </div>
-    <h2><u>Job Description</u></h2>
-    <p>
-      An aquarium curator oversees one specific group of animals in an
-      aquarium's animal collection such as fish or mammals.
-    </p>
-    <div class="Description"></div>
+    <div class="jr">
+      <h4><u>Job Responsibilities</u></h4>
+      <p>Aquarium animal curators have several responsibilities, including:</p>
+      <ul id="list">
+        <li>deciding what fish to put in the Aquarium</li>
+        <li>regulating the nutrition and health of the fish</li>
+        <li>determining the required water conditions</li>
+        <li>determining the types of glass tanks needed</li>
+      </ul>
+    </div>
+    <!--Job Description-->
 
-    <img
-      src="https://images.csmonitor.com/csm/2020/08/0812%20DDP%20ZOO%20penguins.jpg?alias=standard_300x200"
-      alt="An image of an aquarium curator taking care of a chinstrap penguin"
-      width="600"
-    />
+    <div class="Description">
+      <h4><u>Job Description</u></h4>
+      <p>
+        An aquarium curator oversees one specific group of animals in an <br />
+        aquarium's animal collection such as fish or mammals.
+      </p>
+      <img
+        src="https://images.csmonitor.com/csm/2020/08/0812%20DDP%20ZOO%20penguins.jpg?alias=standard_300x200"
+        alt="An image of an aquarium curator taking care of a chinstrap penguin"
+        width="600"
+      />
+    </div>
 
     <script src="script.js"></script>
   </body>
