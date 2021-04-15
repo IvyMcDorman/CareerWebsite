@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 html {
   background: url(https://cutewallpaper.org/21/water-background-picture/90-Simple-Backgrounds-Edit-and-Download-Visual-Learning-.jpg)
     no-repeat center center fixed;
@@ -7,7 +6,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: "Rajdhani", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
 }
 .titles {
   color: #001f54;
@@ -31,6 +30,7 @@ html {
   margin-right: auto;
   width: 50%;
   margin-bottom: 50px;
+  padding-left: 20px;
 }
 
 .navbar {
@@ -61,15 +61,28 @@ html {
 
 .jr {
   position: absolute;
-  bottom: 250px;
+  bottom: 150px;
   padding-left: 50px;
 }
 
 .card-image > img {
   width: 512px;
-  height: 300px;
+  height: 512px;
+}
+
+.card-image {
+  height: 500px;
 }
 
 .centerimage {
   padding-left: 250px;
+}
+
+.cimg {
+  height: 100px;
+  width: 100px;
+}
+
+.carousel {
+  width: 100%;
 }
